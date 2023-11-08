@@ -1,0 +1,9 @@
+.imgCont {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.imgCont img {
+  width: 25vw;
+}
