@@ -4,6 +4,18 @@
 // You can use the images that I have provided or use your own
 // I have provided a lorem ipsum content for description. Just use that. No need to spend time figuring out a description.
 
+import Place1Image1 from "./Assets/TokyoImage1.jpg";
+import Place1Image2 from "./Assets/TokyoImage2.jpg";
+import Place1Image3 from "./Assets/TokyoImage3.jpg";
+
+import Place2Image1 from "./Assets/LondonImage1.jpg";
+import Place2Image2 from "./Assets/LondonImage2.jpg";
+import Place2Image3 from "./Assets/LondonImage3.jpg";
+
+import Place3Image1 from "./Assets/SFImage1.jpg";
+import Place3Image2 from "./Assets/SFImage2.jpg";
+import Place3Image3 from "./Assets/SFImage3.jpg";
+
 const TravelData = [
   {
     id: 1,
