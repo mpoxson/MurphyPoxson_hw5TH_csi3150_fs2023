@@ -1,15 +1,19 @@
+/* Getting rid of horizontal scroll bar */
 body {
   overflow-x: hidden;
 }
+/* Make each section full width and height of screen */
 .holder {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+  /* Make all three rows equidistant to eachother and end top and bottom of section */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+/* Make images equidistant from eachother, make sure height isn't too large */
 .imgCont {
   display: flex;
   justify-content: space-around;
@@ -17,6 +21,7 @@ body {
   max-height: 75vh;
 }
 
+/* Scale images */
 .imgCont img {
   width: 25vw;
   height: auto;

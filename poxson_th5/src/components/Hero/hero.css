@@ -1,3 +1,4 @@
+/* Add and position background img */
 .heroics {
   width: 100vw;
   height: 100vh;
@@ -6,6 +7,7 @@
   background-position: center;
 }
 
+/* Resize and change color of font */
 h1 {
   color: #fff;
   font-size: 55px;
@@ -15,6 +17,7 @@ header {
   padding-top: 20px;
 }
 
+/* Move subheading to near center of screen */
 main {
   position: absolute;
   top: 60%;

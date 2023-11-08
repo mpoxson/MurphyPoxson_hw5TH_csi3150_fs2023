@@ -2,9 +2,11 @@ import React from "react";
 import "./Travelblog.css";
 
 const TravelBlog = (props) => {
+    //html for cards
   return (
     <div className="holder">
       <div>
+        {/* Props is the data sent from app.js */}
         <h3>{props.place}</h3>
       </div>
       <article className="imgCont">

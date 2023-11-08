@@ -5,9 +5,10 @@ import TravelBlog from "./components/TravelBlog/TravelBlog";
 import TravelData from "./TravelData";
 
 function App() {
+  //map each object in traveldata array, return html
   const sections = TravelData.map((item) => {
-    //generalize the invocation of the card component inside app.js
     return (
+      // send data to js
       <TravelBlog
         key={item.id}
         place={item.placeHeading}
@@ -16,11 +17,13 @@ function App() {
         img3={item.placeImg3}
         desc={item.placeDescription}
       />
-    ); //end of map function callback's body
+    );
   });
   return (
+    // Send html to dom
     <div className="App">
       <Hero />
+      {/* Calls above function and returns html for all elements in array */}
       <section className="product-card-parent-container"> {sections} </section>
     </div>
   );

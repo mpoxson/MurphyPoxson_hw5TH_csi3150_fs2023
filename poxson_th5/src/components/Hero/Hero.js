@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.css";
 
 const Hero = () => {
+    //Creating html for the hero page
   return (
     <div className="heroics">
       <header>

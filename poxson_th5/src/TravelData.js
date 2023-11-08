@@ -4,6 +4,7 @@
 // You can use the images that I have provided or use your own
 // I have provided a lorem ipsum content for description. Just use that. No need to spend time figuring out a description.
 
+// Importing images from asset folder with aliases
 import Place1Image1 from "./Assets/TokyoImage1.jpg";
 import Place1Image2 from "./Assets/TokyoImage2.jpg";
 import Place1Image3 from "./Assets/TokyoImage3.jpg";
@@ -16,6 +17,7 @@ import Place3Image1 from "./Assets/SFImage1.jpg";
 import Place3Image2 from "./Assets/SFImage2.jpg";
 import Place3Image3 from "./Assets/SFImage3.jpg";
 
+// Array of objects
 const TravelData = [
   {
     id: 1,
