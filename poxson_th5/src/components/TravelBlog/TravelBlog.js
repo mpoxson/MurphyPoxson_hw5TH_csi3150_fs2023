@@ -3,7 +3,7 @@ import "./Travelblog.css";
 
 const TravelBlog = (props) => {
   return (
-    <div>
+    <div className="holder">
       <div>
         <h3>{props.place}</h3>
       </div>

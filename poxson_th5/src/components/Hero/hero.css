@@ -1,0 +1,24 @@
+.heroics {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../Assets/HeroSection-bg-image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 55px;
+}
+
+header {
+  padding-top: 20px;
+}
+
+main {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  color: #e7ff91;
+}

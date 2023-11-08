@@ -1,9 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+.holder {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .imgCont {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  max-height: 75vh;
 }
 
 .imgCont img {
   width: 25vw;
+  height: auto;
 }

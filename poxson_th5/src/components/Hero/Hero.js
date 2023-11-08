@@ -1,13 +1,14 @@
 import React from "react";
+import "./hero.css";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="heroics">
       <header>
-        <h1>Website Heading</h1>
+        <h1>Travel Blog</h1>
       </header>
       <main>
-        <h2>Website sub-heading / brief Description</h2>
+        <h2>See the world (mainly Tokyo, San Fran, and London)</h2>
       </main>
     </div>
   );
